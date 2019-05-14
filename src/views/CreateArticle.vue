@@ -63,7 +63,7 @@ export default {
             this.image = image;
         },
         createArticle(){
-            if (!this.title || !this.content || !this.content || !this.category) {
+            if (!this.title || !this.content || !this.image || !this.category) {
                 this.$noty.error('Please fill in all fields');
                 return;
             }
